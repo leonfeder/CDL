@@ -8,7 +8,7 @@ There are several components:
 
 2. The javascript that creates the AJAX request of the google sheet google-sheet.js
 
-3. The google script (javascript) accessed from the sheet (tools/script editor) code.js
+3. The google script (javascript) accessed from the sheet (tools/script editor) code.gs
 
 4. The google sheet itself
 
