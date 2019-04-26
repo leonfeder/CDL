@@ -1,0 +1,210 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+    <meta charset='utf-8'>
+    <meta content='IE=edge' http-equiv='X-UA-Compatible'>
+    <meta content='width=device-width, initial-scale=1' name='viewport'>
+
+<!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+<!-- jQuery pbrary -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+<!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+
+</head>
+<body> 
+  <nav class="navbar navbar-expand-sm bg-dark navbar-dark">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="nav.html"><img src="logo3.jpg"></a>
+            <form class="form-inline" id='draftPlayer'>
+            <div class="form-row">
+                <label for="player" style="color: white; padding-right: 5px; padding-left: 5px;">Player:</label>
+                <input class="form-control input-lg" id='Player' name="Player" type="text" placeholder="Player Name (First Last)">
+
+                <label for="team" style="color: white; padding-right: 5px; padding-left: 5px;">Team:</label>
+                <select class="form-control" id='Team' name='Team'>
+                    <option>01-Mulletmen</option>
+                    <option>02-The Federation</option>
+                    <option>03-Dinoaurs</option>
+                    <option>04-Federal Express</option>
+                    <option>05-Koo D'Etats</option>
+                    <option>06-Broken Arrows</option>
+                    <option>07-Lost Bucks</option>
+                    <option>08-Duct tape</option>
+                    <option>09-Doubleheaders</option>
+                    <option>10-Strokin'</option>
+                    <option>11-Mind Erasers</option>
+                    <option>12-no exCuses</option>
+                    <option>13-Bagels & Locks</option>
+                    <option>14-Dubbledown</option>
+                    <option>15-Calico Cats</option>
+                </select>
+            
+                <label for="Salary" style="color: white; padding-right: 5px; padding-left: 5px;">Salary:</label>
+                <input class="form-control" type="number" min="0" max="243" id='Salary' name='Salary' placeholder="$$">
+              
+                <label for="contract" style="color: white; padding-right: 5px; padding-left: 5px;">Contract:</label>
+                <select class="form-control" id='Contract' name='Contract' style="padding-right: 15px;">
+                    <option selected>L3 </option>
+                    <option>L2 </option>
+                    <option>L1 </option>
+                    <option>S1 </option>
+                </select>
+
+                <label for="slot" style="color: white; padding-right: 5px; padding-left: 5px;">Slot:</label>
+                <select class="form-control" id='Slot' name='Slot' style="padding-right: 15px;">
+                    <option>C1 </option>
+                    <option>C2 </option>
+                    <option>1B1 </option>
+                    <option>1B2 </option>
+                    <option>2B1</option>
+                    <option>2B2 </option>
+                    <option>3B1 </option>
+                    <option>3B2 </option>
+                    <option>SS1 </option>
+                    <option>SS2 </option>
+                    <option>OF1 </option>
+                    <option>OF2 </option>
+                    <option>OF3 </option>
+                    <option>OF4 </option>
+                    <option>UT </option>
+                    <option>SP1 </option>
+                    <option>SP2 </option>
+                    <option>SP3 </option>
+                    <option>SP4 </option>
+                    <option>P1 </option>
+                    <option>P2 </option>
+                    <option>P3 </option>
+                    <option>P4 </option>
+                    <option>RP1 </option>
+                    <option>RP2 </option>
+                </select>
+                
+                <div class="col px-md-5">
+                    <button type="submit" class="btn btn-primary" >Submit</button>
+                </div>
+            </div>
+            </form>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            
+            <div class="col">
+                <div>
+                    <h1 class="text-danger display-6">Jurickson Profar 1B,3B,SS | OAK</h1> 
+                    <p>Is on the block!</p> 
+                </div>
+                <ul class="nav nav-tabs nav-justified bg-light">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="#rosters" aria-controls="rosters" id="rosters-tab" data-toggle="tab" aria-selected="true">Rosters</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#budgets" id="budgets-tab" data-toggle="tab" aria-selected="true">Budgets</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#teamneeds" id="teamneeds-tab" data-toggle="tab" aria-selected="true">Team Needs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#timeouts" id="timeouts-tab" data-toggle="tab" aria-selected="true">Time Outs</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#nominations" id="nominations-tab" data-toggle="tab" aria-selected="true">Nominations</a>
+                    </li>
+                </ul>
+
+                <div class="tab-content" id="myTabContent">
+                    <div class="tab-pane fade show active" id="rosters" role="tabpanel" aria-labelledby="rosters-tab">
+                        <table  class="table table-bordered">
+                            <thead class="thead-dark">
+                            <tr><th colspan="5" class="text-center">Federal Express</th></tr>
+                            <tr>
+                                <td >
+                        <Small>1B1 - </B>Brandon Belt </Small>
+                        <BR><Small>1B2 - </B>Cody Bellinger</Small>
+                        <BR><Small>2B1 - </B>Daniel Murphy</Small>
+                        <BR><Small>2B2 - </B>Niko Goodrum</Small>
+                        <BR><Small>SS1 - </B>Jurickson Profar</Small>
+                                </td>
+                                <td>
+                        <Small>SS2 - </B>Gleyber Torres</Small>
+                        <BR><Small>3B1 - </B>Miguel Andujar</Small>
+                        <BR><Small>3B2 - </B>Mike Moustakas</Small>
+                        <BR><Small>C1 - </B>Gary Sanchez</Small>
+                        <BR><Small>C2 - </B>Nick Hundley</Small>
+                                </td>
+                                <td>
+                        <Small>OF1 - </B>Christian Yelich</Small>
+                        <BR><Small>OF2 - </B>Aaron Hicks</Small>
+                        <BR><Small>OF3 - </B>Justin Upton</Small>
+                        <BR><Small>OF4 - </B>Greg Allen </Small>
+                        <BR><Small>UT -</B>Greg Bird </Small>
+                                </td>
+                                <td>
+                        <Small>SP1 - </B>Cole Hamels</Small>
+                        <BR><Small>SP2 - </B>Justin Verlander</Small>
+                        <BR><Small>SP3 -</B>Chris Archer</Small>
+                        <BR><Small>SP4 - </B>Joe Musgrove</Small>
+                        <BR><Small>P1 - </B>Taijuan Walker</Small>
+                                </td>
+                                <td>
+                        <Small>P2 - </B>Chris Paddack </Small>
+                        <BR><Small>P3 - </B>Jhoulys Chacin </Small>
+                        <BR><Small>P4 - </B>CC Sabathia </Small>
+                        <BR><Small>RP1 - </B>Kirby Yates </Small>
+                        <BR><Small>RP2 - </B>Jose Alvarado</Small>
+                                </td>
+                            </tr>
+                        </table>
+                    </div>
+                    <div class="tab-pane fade" id="budgets" role="tabpanel" aria-labelledby="budgets-tab">
+                        <h1>Budgets</h1>
+
+
+                    </div>
+                    <div class="tab-pane fade" id="teamneeds" role="tabpanel" aria-labelledby="teamneeds-tab">
+                        <h1>Team Needs</h1>
+                    </div>
+                    <div class="tab-pane fade" id="timeouts" role="tabpanel" aria-labelledby="timeouts-tab">
+                        <h1>Time Outs</h1>
+                    </div>
+                    <div class="tab-pane fade" id="nominations" role="tabpanel" aria-labelledby="nominations-tab">
+                        <h1>Nominations</h1>
+                    </div>
+                </div>
+            </div>
+
+            <div class="col-2">
+                <div class="btn-group-vertical">
+
+                    <button type="button" class="btn btn-primary active btn-sm btn-block">Nomination Order</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Mulletmen</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">The Federation</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">The Dinosaurs</button>
+                    <button type="button" class="btn btn-dark active btn-sm btn-block">Federal Express</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Koo D'Etats</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Broken Arrows</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Lost Bucs</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Duct Tape</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">The Doubleheaders</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Mind Erasers</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">no exCuses</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Bagels and Locks</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Dubbledown</button>
+                    <button type="button" class="btn btn-outline-secondary disabled btn-sm btn-block">Calico Cats</button>
+
+                </div>
+            </div>
+        </div>
+    </div>
+   
+
+  <!-- Custom Theme JavaScript -->
+      <!-- Contact Form - sent to a Google Sheet -->
+  <script src='google-sheet.js'></script>
+</body>
+</html>
