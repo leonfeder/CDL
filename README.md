@@ -8,9 +8,9 @@ There are several components:
 
 2. The javascript that creates the AJAX request of the google sheet google-sheet.js
 
-3 The google script (javascript) accessed from the sheet (tools/script editor) code.js
+3. The google script (javascript) accessed from the sheet (tools/script editor) code.js
 
 4. The google sheet itself
 
 =========================================================================================================
-Also in Github is the requirement/design document: "Specs for draft software.docx"
+Also in Github is the requirement/design document: "Specs for draft software.docx". It's old and needs to be updated but there are notes in there that I will refer to when I get to certain functions that I want to build.
